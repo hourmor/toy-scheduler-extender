@@ -41,6 +41,6 @@ func LuckyPredicate(pod *v1.Pod, node v1.Node) (bool, []string, error) {
 
 toy-scheduler-extender运行截图
 
-![4](./pic/2.png)
+![2](./pic/2.png)
 
-![4](./pic/3.png)
+![3](./pic/3.png)
