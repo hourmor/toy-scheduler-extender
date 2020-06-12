@@ -35,11 +35,11 @@ func LuckyPredicate(pod *v1.Pod, node v1.Node) (bool, []string, error) {
 
 ## 运行截图
 
-环境配置成功
+个人创建k8s集群证明，环境配置成功
 
 ![4](./pic/4.png)
 
-toy-scheduler-extender运行截图
+toy-scheduler-extender运行截图,可以看见，当对应pod输出时间不为偶数时，会输出"unlucky to fit"相关的字符串。
 
 ![2](./pic/2.png)
 
